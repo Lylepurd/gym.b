@@ -1,0 +1,147 @@
+html {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  cursor: default;
+}
+
+header {
+  background-color: white;
+  background-image: url('./assets/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header, h1, p {
+  color: white;
+}
+
+header h1 {
+  font-size: 150px;
+}
+
+header p {
+  font-size: 95px;
+  text-decoration: underline;
+}
+
+.hero-wrapper {
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+  color: white;
+}
+
+.hero-wrapper h2 {
+  font-size: 100px;
+  padding: 1.5rem;
+  text-decoration: underline;
+}
+
+.hero-wrapper p {
+  font-size: 25px;
+  padding: 1rem;
+}
+
+
+
+.gallary {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gallary img {
+  width: 500px;
+}
+
+.form-area {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-area h1 {
+  font-size: 50px;
+}
+
+form {
+  padding: 2rem;
+}
+
+form input {
+  margin: 1rem;
+  padding: .5rem;
+  cursor: text;
+}
+
+form button {
+  background-color: rgb(67, 224, 85);
+  color: black;
+  border: none;
+  padding: .5rem;
+  margin-left: 3.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  transform: scale(1.1);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact p {
+  padding: .5rem;
+}
+
+.members-section {
+  margin-left: 20rem;
+}
+
+.members-section ul {
+  margin-top: 1.5rem;
+}
+
+.members-section ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: .5rem;
+}
+
+.copy {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 15px;
+}
